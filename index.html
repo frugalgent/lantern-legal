@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="index,follow"/>
+<title>Legal — Lantern</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Newsreader:wght@400;500&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{--paper:#F4EEE1;--paper2:#EBE1CE;--ink:#2A241B;--inkMute:#7A6E59;--gold:#B0852F;--goldDeep:#8E6A22;--oxblood:#6E2B2B;--line:rgba(42,36,27,0.14)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Newsreader',Georgia,'Times New Roman',serif;font-size:18px;line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:48px 22px 96px}
+.brand{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:.3px;color:var(--ink);text-decoration:none;font-size:20px}
+.brand .dot{color:var(--goldDeep)}
+nav{display:flex;gap:18px;margin-top:6px;font-family:'Spline Sans',system-ui,sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:1px}
+nav a{color:var(--inkMute);text-decoration:none}
+nav a:hover{color:var(--goldDeep)}
+hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:34px;line-height:1.2;margin:28px 0 6px}
+h2{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:23px;margin:40px 0 10px}
+h3{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:19px;margin:28px 0 8px}
+a{color:var(--goldDeep)}
+blockquote{margin:22px 0;padding:12px 18px;background:var(--paper2);border-left:3px solid var(--gold);border-radius:6px;color:var(--ink)}
+blockquote p{margin:6px 0}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+strong{color:var(--ink)}
+code{background:var(--paper2);padding:1px 6px;border-radius:5px;font-size:.9em}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:16px}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:var(--paper2);font-family:'Spline Sans',system-ui,sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--inkMute)}
+.updated{font-family:'Spline Sans',system-ui,sans-serif;font-size:13px;color:var(--inkMute)}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-family:'Spline Sans',system-ui,sans-serif;font-size:13px;color:var(--inkMute)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="/lantern-legal/">Lantern<span class="dot">.</span></a>
+<nav><a href="/lantern-legal/privacy/">Privacy</a><a href="/lantern-legal/terms/">Terms</a></nav>
+<hr/>
+</header>
+<main>
+
+<h1>Lantern — Legal</h1>
+<p>A quieter, more beautiful way to spend time in the Word.</p>
+<ul>
+<li><a href="/lantern-legal/privacy/">Privacy Policy</a></li>
+<li><a href="/lantern-legal/terms/">Terms of Service</a></li>
+</ul>
+</main>
+<footer>© <span id="y"></span> Lantern · <a href="/lantern-legal/privacy/">Privacy Policy</a> · <a href="/lantern-legal/terms/">Terms of Service</a></footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
